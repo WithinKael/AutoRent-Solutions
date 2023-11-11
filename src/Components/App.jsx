@@ -4,6 +4,7 @@ import Catalog from '../Pages/Catalog';
 import Home from '../Pages/HomePage';
 import Favorites from '../Pages/Favorites';
 import NotFoundPage from '../Pages/NotFoundPage';
+import css from '../css/App.module.css';
 
 const App = () => {
   return (
@@ -11,10 +12,16 @@ const App = () => {
       <div>
         <header>
           <nav>
-            <div>
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/catalog">Catalog</NavLink>
-              <NavLink to="/favorites">Favorites</NavLink>
+            <div className={css.navigation}>
+              <NavLink to="/" className={css.link}>
+                Home
+              </NavLink>
+              <NavLink to="/catalog" className={css.link}>
+                Catalog
+              </NavLink>
+              <NavLink to="/favorites" className={css.link}>
+                Favorites
+              </NavLink>
             </div>
           </nav>
         </header>

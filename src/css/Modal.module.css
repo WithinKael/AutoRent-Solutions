@@ -1,0 +1,31 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal {
+  width: 541px;
+  height: 752px;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+  background-color: rgb(233, 232, 232);
+  border-radius: 24px;
+  padding-left: 35px;
+  padding-right: 37px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.modalImage {
+  width: 469px;
+  height: 314px;
+  margin: auto;
+}

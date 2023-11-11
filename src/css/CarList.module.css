@@ -5,17 +5,15 @@
   align-items: center;
   margin-top: 50px;
 }
-
 .carList {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 29px;
+  list-style-type: none;
 }
 
 .carListItem {
   width: 274px;
-  flex-basis: calc((100% - (29px * 3)) / 4);
 }
 
 .carImage {

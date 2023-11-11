@@ -1,0 +1,111 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.label {
+  color: #8a8a89;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.selectBrand {
+  font-family: Manrope;
+  width: 224px;
+  height: 48px;
+  color: #121417;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 14px;
+  background: #f7f7fb;
+  padding-left: 18px;
+  border: none;
+}
+
+.selectPrice {
+  font-family: Manrope;
+  display: flex;
+  width: 125px;
+  height: 48px;
+  border-radius: 14px;
+  background-color: #f7f7fb;
+  color: #121417;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 18px;
+  border: none;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.inputOne {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  border-radius: 14px 0px 0px 14px;
+  padding-left: 24px;
+  background-color: #f7f7fb;
+  border: none;
+  color: #121417;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.inputTwo {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  border-radius: 0px 14px 14px 0px;
+  padding-left: 24px;
+  background: #f7f7fb;
+  border: none;
+  border-left: 2px solid rgb(218, 217, 217);
+
+  color: #171212;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.formButton {
+  display: flex;
+  width: 136px;
+  height: 48px;
+  padding: 14px 44px;
+  border-radius: 12px;
+  background-color: #3470ff;
+  border: none;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}

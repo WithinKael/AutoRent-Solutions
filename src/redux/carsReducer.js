@@ -8,7 +8,7 @@ const initialState = {
       make: 'Buick',
       model: 'Enclave',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/buick_enclave.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Buick Enclave is a stylish and spacious SUV known for its comfortable ride and luxurious features.',
       fuelConsumption: '10.5',
@@ -36,7 +36,7 @@ const initialState = {
       make: 'Volvo',
       model: 'XC90',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/volvo_xc90.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Volvo XC90 is a premium SUV that offers exceptional safety, advanced technology, and elegant design.',
       fuelConsumption: '8.3',
@@ -64,7 +64,7 @@ const initialState = {
       make: 'Volvo',
       model: 'XC60',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/volvo_xc60.webp',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Volvo XC60 is a compact luxury SUV with a beautiful interior, strong performance, and advanced safety features.',
       fuelConsumption: '7.9',
@@ -92,7 +92,7 @@ const initialState = {
       make: 'HUMMER',
       model: 'H2',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/hummer_h2.webp',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The HUMMER H2 is a rugged and powerful SUV that stands out with its imposing presence and off-road capabilities.',
       fuelConsumption: '19.8',
@@ -120,7 +120,7 @@ const initialState = {
       make: 'Subaru',
       model: 'Outback',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/subaru_outback.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Subaru Outback is a versatile and reliable SUV that combines off-road capability with a comfortable and spacious interior.',
       fuelConsumption: '8.7',
@@ -148,7 +148,7 @@ const initialState = {
       make: 'Mitsubishi',
       model: 'Outlander',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/mitsubishi_outlander.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Mitsubishi Outlander is a practical and fuel-efficient SUV with a stylish design and a range of modern features.',
       fuelConsumption: '7.9',
@@ -176,7 +176,7 @@ const initialState = {
       make: 'Nissan',
       model: 'Pathfinder',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/nissan_pathfinder.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Nissan Pathfinder is a versatile and family-friendly SUV that offers a comfortable ride and generous cargo space.',
       fuelConsumption: '9.5',
@@ -204,7 +204,7 @@ const initialState = {
       make: 'Lincoln',
       model: 'Navigator L',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/lincoln_navigator_l.webp',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Lincoln Navigator L is a luxurious and spacious SUV with a refined interior and advanced technology features.',
       fuelConsumption: '18.2',
@@ -232,13 +232,13 @@ const initialState = {
       make: 'GMC',
       model: 'Yukon Denali',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/gmc_yukon_denali.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The GMC Yukon Denali is a full-size luxury SUV that offers a powerful engine, a comfortable and spacious interior, and a host of advanced features.',
       fuelConsumption: '14.5',
       engineSize: '6.0L V8',
       accessories: [
-        'Heated and ventilated front seats',
+        'Heated',
         'BOSE premium sound system',
         'Power-folding third-row seats',
       ],
@@ -260,13 +260,13 @@ const initialState = {
       make: 'Hyundai',
       model: 'Tucson',
       type: 'SUV',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/hyundai_tucson.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Hyundai Tucson is a reliable and fuel-efficient SUV that combines practicality with a stylish design and a comfortable ride.',
       fuelConsumption: '8.2',
       engineSize: '2.0L 4-cylinder',
       accessories: [
-        'Apple CarPlay and Android Auto integration',
+        'Apple CarPlay',
         'Blind Spot Detection',
         'Hands-free smart liftgate',
       ],
@@ -288,7 +288,7 @@ const initialState = {
       make: 'MINI',
       model: 'Convertible',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/mini_convertible.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The MINI Convertible is a compact and fun-to-drive convertible that offers a unique and iconic design, agile handling, and an open-air driving experience.',
       fuelConsumption: '6.9',
@@ -316,7 +316,7 @@ const initialState = {
       make: 'Bentley',
       model: 'Azure',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/bentley_azure.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Bentley Azure is a luxurious and prestigious convertible that combines exceptional craftsmanship, powerful performance, and sophisticated elegance.',
       fuelConsumption: '22.5',
@@ -344,7 +344,7 @@ const initialState = {
       make: 'Mercedes-Benz',
       model: 'SL-Class',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/mercedes_sl_class.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Mercedes-Benz SL-Class is a legendary luxury convertible that offers a perfect blend of thrilling performance, advanced technology, and opulent comfort.',
       fuelConsumption: '11.8',
@@ -372,7 +372,7 @@ const initialState = {
       make: 'Aston Martin',
       model: 'DBS',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/aston_martin_dbs.webp',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Aston Martin DBS is a stunning and high-performance convertible that exemplifies British luxury and delivers exhilarating driving dynamics.',
       fuelConsumption: '16.5',
@@ -400,7 +400,7 @@ const initialState = {
       make: 'Pontiac',
       model: 'Firebird',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/pontiac_firebird.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Pontiac Firebird is a classic American muscle car with bold styling, powerful engines, and an iconic presence that captures the essence of the golden era of performance.',
       fuelConsumption: '15.2',
@@ -428,7 +428,7 @@ const initialState = {
       make: 'Lamborghini',
       model: 'Murcielago',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/lamborghini_murcielago.webp',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Lamborghini Murcielago is an exotic and high-performance convertible that represents the epitome of Italian automotive engineering, combining breathtaking design, blistering speed, and a spine-tingling exhaust note.',
       fuelConsumption: '25.0',
@@ -456,7 +456,7 @@ const initialState = {
       make: 'Audi',
       model: 'A5',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/audi_a5.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Audi A5 is a stylish and refined convertible that offers a perfect blend of elegance, cutting-edge technology, and exhilarating driving dynamics.',
       fuelConsumption: '8.5',
@@ -484,7 +484,7 @@ const initialState = {
       make: 'BMW',
       model: 'Z8',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/bmw_z8.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The BMW Z8 is a classic and timeless convertible that combines iconic retro-inspired design, outstanding performance, and luxurious comfort.',
       fuelConsumption: '14.2',
@@ -512,7 +512,7 @@ const initialState = {
       make: 'Chevrolet',
       model: 'Camaro',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/chevrolet_camaro.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Chevrolet Camaro is an American muscle car legend with a rich heritage, boasting aggressive styling, powerful engines, and exhilarating performance.',
       fuelConsumption: '13.5',
@@ -540,7 +540,7 @@ const initialState = {
       make: 'Mercedes-Benz',
       model: 'SLK-Class',
       type: 'Convertible',
-      img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/mercedes_slk_class.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Mercedes-Benz SLK-Class is a luxurious and sporty convertible that offers a perfect balance of style, performance, and refinement, delivering an enjoyable open-top driving experience.',
       fuelConsumption: '9.8',
@@ -568,8 +568,7 @@ const initialState = {
       make: 'Chrysler',
       model: 'Voyager',
       type: 'Van/Minivan',
-      photoLink:
-        'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/chrysler_voyager.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Chrysler Voyager is a practical and versatile van/minivan that provides comfortable seating, ample cargo space, and a range of convenient features for family-oriented transportation.',
       fuelConsumption: '8.2',
@@ -597,8 +596,7 @@ const initialState = {
       make: 'Kia',
       model: 'Rio',
       type: 'Hatchback',
-      photoLink:
-        'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_hatchback.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Kia Rio is a compact and fuel-efficient hatchback that offers a blend of affordability, reliability, and practicality, making it an excellent choice for urban commuting and everyday driving.',
       fuelConsumption: '6.2',
@@ -626,8 +624,7 @@ const initialState = {
       make: 'Volvo',
       model: 'XC60',
       type: 'SUV',
-      photoLink:
-        'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/volvo_xc60_2.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Volvo XC60 is a luxurious and versatile SUV that combines Scandinavian design, advanced safety features, and a comfortable driving experience, making it an ideal choice for families and adventure enthusiasts.',
       fuelConsumption: '8.5',
@@ -655,8 +652,7 @@ const initialState = {
       make: 'Land Rover',
       model: 'Range Rover Sport',
       type: 'SUV',
-      photoLink:
-        'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/land_rover_range_rover_sport.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Land Rover Range Rover Sport is a premium SUV that offers a perfect blend of luxury, off-road capability, and dynamic performance, providing a refined driving experience both on and off the road.',
       fuelConsumption: '11.8',
@@ -684,8 +680,7 @@ const initialState = {
       make: 'Kia',
       model: 'Rio',
       type: 'Sedan, Hatchback',
-      photoLink:
-        'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg',
+      img: 'https://static.mk.ru/upload/objects/articles/detailPicture/f0/ce/0b/a9/4904366_5421264.jpg',
       description:
         'The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.',
       fuelConsumption: '6.2',

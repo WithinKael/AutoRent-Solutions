@@ -56,7 +56,7 @@ const FormFilter = () => {
           <input placeholder="To" type="number" className={css.inputTwo} />
         </div>
       </div>
-            
+
       <div className={css.selectContainer}>
         <button type="submit" className={css.formButton}>
           Search

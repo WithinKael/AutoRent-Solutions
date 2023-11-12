@@ -20,8 +20,8 @@ const FormFilter = () => {
     event.preventDefault();
     dispatch(setBrandFilter(brand));
     dispatch(setPriceFilter(price));
-    dispatch(setMillegeOne(millegeOne));
-    dispatch(setMillegeTwo(millegeTwo));
+    dispatch(setMillegeOne(millegeOne.replace(',', '')));
+    dispatch(setMillegeTwo(millegeTwo.replace(',', '')));
   };
 
   const handleSelectBrand = event => {
@@ -32,17 +32,21 @@ const FormFilter = () => {
     setPrice(event.target.value);
   };
 
+  const formatNumberWithComma = value => {
+    return value.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  };
+
   const handleChangeMillegeOne = event => {
     const value = event.target.value;
     if (/^\d+$/.test(value) || value === '') {
-      setCarMillegeOne(value);
+      setCarMillegeOne(formatNumberWithComma(value));
     }
   };
 
   const handleChangeMillegeTwo = event => {
     const value = event.target.value;
     if (/^\d+$/.test(value) || value === '') {
-      setCarMillegeTwo(value);
+      setCarMillegeTwo(formatNumberWithComma(value));
     }
   };
 
@@ -87,19 +91,19 @@ const FormFilter = () => {
         <div className={css.inputContainer}>
           <input
             placeholder="From"
-            type="number"
+            type="text"
             className={css.inputOne}
             onChange={handleChangeMillegeOne}
             value={millegeOne}
-            maxLength={5}
+            maxLength={8}
           />
           <input
             placeholder="To"
-            type="number"
+            type="text"
             className={css.inputTwo}
             onChange={handleChangeMillegeTwo}
             value={millegeTwo}
-            maxLength={5}
+            maxLength={8}
           />
         </div>
       </div>

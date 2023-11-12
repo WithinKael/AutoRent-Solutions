@@ -4,12 +4,13 @@ import { getAllCarsThunk, getCarsThunk } from './thunks';
 const initialState = {
   carsData: [],
   carsDataFilter: [],
+  favorites: [],
   isLoading: false,
   error: null,
   brandFilter: '',
   priceFilter: '',
-  millegeOneValue: '',
-  millegeTwoValue: '',
+  millegeOneValue: 0,
+  millegeTwoValue: 0,
 };
 
 const carsSlice = createSlice({
@@ -23,10 +24,18 @@ const carsSlice = createSlice({
       state.priceFilter = action.payload;
     },
     setMillegeOne: (state, action) => {
-      state.millegeOneValue = action.payload;
+      state.millegeOneValue = Number(action.payload);
     },
     setMillegeTwo: (state, action) => {
-      state.millegeTwoValue = action.payload;
+      state.millegeTwoValue = Number(action.payload);
+    },
+    setFavorites: (state, action) => {
+      state.favorites.push(action.payload);
+    },
+    deleteFavorites: (state, action) => {
+      state.favorites = state.favorites.filter(
+        item => item.id !== action.payload.id
+      );
     },
   },
   extraReducers: builder =>
@@ -67,4 +76,6 @@ export const { setBrandFilter } = carsSlice.actions;
 export const { setPriceFilter } = carsSlice.actions;
 export const { setMillegeOne } = carsSlice.actions;
 export const { setMillegeTwo } = carsSlice.actions;
+export const { setFavorites } = carsSlice.actions;
+export const { deleteFavorites } = carsSlice.actions;
 export const carsReducer = carsSlice.reducer;

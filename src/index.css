@@ -1,4 +1,7 @@
 @import-normalize;
+* {
+  font-family: Manrope;
+}
 
 body {
   margin: 0;
@@ -7,10 +10,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.catalog {  
+.catalog {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }

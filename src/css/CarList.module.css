@@ -5,14 +5,17 @@
   align-items: center;
   margin-top: 50px;
 }
+
 .carList {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 29px;
+  column-gap: 29px;
+  row-gap: 50px;
   list-style-type: none;
 }
 
 .carListItem {
+  position: relative;
   width: 274px;
 }
 
@@ -21,6 +24,39 @@
   height: 268px;
   border-radius: 14px;
   margin-bottom: 14px;
+}
+
+.svg {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 243px;
+  top: 12px;
+  fill: none;
+  stroke: white;
+  cursor: pointer;
+}
+
+.svgActive {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 243px;
+  top: 12px;
+  fill: #3470ff;
+  stroke: #3470ff;
+  cursor: pointer;
+}
+
+.selectedSvg {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 243px;
+  top: 12px;
+  fill: #0b44cd;
+  stroke: #0b44cd;
+  transition: all 0.3s;
 }
 
 .mainStatsCar {
@@ -33,7 +69,6 @@
 
 .paragraph {
   color: #121417;
-  font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -44,7 +79,6 @@
 
 .span {
   color: #3470ff;
-  font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -53,7 +87,7 @@
 
 .secondaryStatsList {
   display: flex;
-  width: 270px;
+  width: 290px;
   list-style-type: none;
   flex-wrap: wrap;
   padding-inline-start: 0;
@@ -63,11 +97,12 @@
 
 .secondaryStatsItem {
   color: rgba(18, 20, 23, 0.5);
-  font-family: Manrope;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+  border-right: 1px solid rgba(18, 20, 23, 0.1);
+  padding-right: 6px;
 }
 
 .itemButton {
@@ -80,14 +115,13 @@
   border-radius: 12px;
   background-color: #3470ff;
   color: #fff;
-  font-family: Manrope;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
   border: none;
   margin-top: 28px;
-  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .itemButton:focus,
@@ -96,9 +130,8 @@
 }
 
 .btnLoadMore {
-  margin-top: 100px;
+  margin-top: 84px;
   color: #3470ff;
-  font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -106,5 +139,5 @@
   text-decoration-line: underline;
   background-color: transparent;
   border: none;
-  cursor: pointer;
+  transition: all 0.3s;
 }

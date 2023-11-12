@@ -20,7 +20,6 @@
 }
 
 .selectBrand {
-  font-family: Manrope;
   width: 224px;
   height: 48px;
   color: #121417;
@@ -39,7 +38,6 @@
 }
 
 .selectPrice {
-  font-family: Manrope;
   display: flex;
   width: 125px;
   height: 48px;
@@ -68,7 +66,6 @@
   background-color: #f7f7fb;
   border: none;
   color: #121417;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -85,9 +82,7 @@
   background: #f7f7fb;
   border: none;
   border-left: 2px solid rgb(218, 217, 217);
-
   color: #171212;
-  font-family: Manrope;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -103,9 +98,13 @@
   background-color: #3470ff;
   border: none;
   color: #fff;
-  font-family: Manrope;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
+  transition: all 0.3s;
+}
+
+.formButton:hover {
+  background-color: #0b44cd;
 }

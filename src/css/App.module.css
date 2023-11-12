@@ -1,11 +1,11 @@
 nav {
-  background-color: #333;
+  background: linear-gradient(to right, #4c3a69, #333);
   padding: 20px;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .link {
@@ -19,5 +19,5 @@ nav {
 }
 
 .link:hover {
-  background-color: #555;
+  background-color: #8f8d8d;
 }

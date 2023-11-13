@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getAllCarsThunk, getCarsThunk } from '../redux/thunks';
 import Modal from './Modal';
 import { deleteFavorites, setFavorites } from '../redux/carsReducer';
-import noImg from '../images/nopic.webp'
+import noImg from '../images/nopic.webp';
 
 const CarList = () => {
   const dispatch = useDispatch();
@@ -88,7 +88,14 @@ const CarList = () => {
           millegeTwoValue
             ? filteredCarsByBrand.map((car, index) => (
                 <li key={index} className={css.carListItem}>
-                  <img src={car.img || noImg} alt="" className={css.carImage} />
+                  <img
+                    src={car.img || noImg}
+                    alt={car.make}
+                    className={css.carImage}
+                    onError={e => {
+                      e.currentTarget.src = noImg;
+                    }}
+                  />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"
@@ -146,7 +153,14 @@ const CarList = () => {
               ))
             : carsData.map((car, index) => (
                 <li key={index} className={css.carListItem}>
-                  <img src={car.img || noImg} alt="" className={css.carImage} />
+                  <img
+                    src={car.img || noImg}
+                    alt={car.make}
+                    className={css.carImage}
+                    onError={e => {
+                      e.currentTarget.src = noImg;
+                    }}
+                  />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"

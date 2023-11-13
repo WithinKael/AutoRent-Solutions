@@ -56,7 +56,11 @@ const Modal = ({ onCloseModal, modalData }) => {
           />
         </svg>
         <div className={css.modalContainer}>
-          <img src={modalData.img || noImg} alt="" className={css.modalImage} />
+          <img
+            src={modalData.img || noImg}
+            alt={modalData.make}
+            className={css.modalImage}
+          />
           <p className={css.carName}>
             {modalData.make + ' '}
             <span className={css.carModel}>{modalData.model}</span>

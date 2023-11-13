@@ -16,16 +16,163 @@
   height: 752px;
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
-  background-color: rgb(233, 232, 232);
+  background: #fff;
   border-radius: 24px;
-  padding-left: 35px;
-  padding-right: 37px;
-  padding-bottom: 40px;
-  padding-top: 30px;
+  padding: 30px 37px 40px 35px;
+  position: relative;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  cursor: pointer;
 }
 
 .modalImage {
-  width: 469px;
+  width: 528px;
   height: 314px;
-  margin: auto;
+  border-radius: 24px;
+}
+
+.carName {
+  color: #121417;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 14px;
+}
+
+.carModel {
+  color: #3470ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.secondaryStatsList {
+  display: flex;
+  width: 350px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.secondaryStatsItem {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  border-right: 1px solid rgba(18, 20, 23, 0.1);
+  padding-right: 6px;
+}
+
+.description {
+  margin-top: 14px;
+  margin-bottom: 24px;
+  color: #121417;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 461px;
+}
+
+.titleFunc {
+  margin: 0;
+  margin-bottom: 8px;
+  color: #121417;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.statsAccessories {
+  display: flex;
+  width: 461px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  gap: 6px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.statsAccessoriesItem {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding-right: 6px;
+}
+
+.titleRental {
+  color: #121417;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.statsRental {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-inline-start: 0;
+  gap: 8px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.statsRentalItem {
+  display: flex;
+  padding: 7px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background: #f9f9f9;
+  color: #363535;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+}
+
+.spanItem {
+  color: #3470ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+}
+
+.btnRentalCar {
+  display: inline-flex;
+  padding: 12px 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #3470ff;
+  border: none;
+}
+
+.linkRentalCar {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
 }

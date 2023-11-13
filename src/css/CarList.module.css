@@ -87,11 +87,11 @@
 
 .secondaryStatsList {
   display: flex;
-  width: 290px;
+  width: 300px;
   list-style-type: none;
   flex-wrap: wrap;
   padding-inline-start: 0;
-  gap: 8px;
+  gap: 4px;
   margin-top: 8px;
 }
 

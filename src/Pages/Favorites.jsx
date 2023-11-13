@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import css from '../css/CarList.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteFavorites, setFavorites } from '../redux/carsReducer';
+import Modal from '../Components/Modal';
 
 export const Favorites = () => {
   const dispatch = useDispatch();
   const favoritesArray = useSelector(state => state.cars.favorites);
+  const [modal, setModal] = useState({ isOpen: false, modalData: null });
 
   const handleClickIcon = car => {
     if (favoritesArray.some(item => item.id === car.id)) {
@@ -13,6 +15,14 @@ export const Favorites = () => {
     } else {
       dispatch(setFavorites(car));
     }
+  };
+
+  const handleOpenModal = modalData => {
+    setModal({ isOpen: true, modalData: modalData });
+  };
+
+  const handleCloseModal = () => {
+    setModal({ isOpen: false, modalData: null });
   };
 
   return (
@@ -67,13 +77,20 @@ export const Favorites = () => {
                   {car.accessories[0].split(' ').slice(0, 2).join(' ')}
                 </li>
               </ul>
-              <button type="button" className={css.itemButton}>
+              <button
+                type="button"
+                className={css.itemButton}
+                onClick={() => handleOpenModal(car)}
+              >
                 Learn more
               </button>
             </li>
           ))}
         </ul>
       )}
+      {modal.isOpen === true ? (
+        <Modal onCloseModal={handleCloseModal} modalData={modal.modalData} />
+      ) : null}
     </div>
   );
 };

@@ -119,7 +119,10 @@ const CarList = () => {
                   </div>
                   <ul className={css.secondaryStatsList}>
                     <li className={css.secondaryStatsItem}>
-                      {car.address.split(',')[1]}
+                      {car.address.split(' ')[3]}
+                    </li>
+                    <li className={css.secondaryStatsItem}>
+                      {car.address.split(' ')[4]}
                     </li>
                     <li className={css.secondaryStatsItem}>
                       {car.rentalCompany}
@@ -174,7 +177,10 @@ const CarList = () => {
                   </div>
                   <ul className={css.secondaryStatsList}>
                     <li className={css.secondaryStatsItem}>
-                      {car.address.split(',')[1]}
+                      {car.address.split(' ')[3]}
+                    </li>
+                    <li className={css.secondaryStatsItem}>
+                      {car.address.split(' ')[4]}
                     </li>
                     <li className={css.secondaryStatsItem}>
                       {car.rentalCompany}

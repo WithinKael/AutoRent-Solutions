@@ -60,6 +60,9 @@ const Modal = ({ onCloseModal, modalData }) => {
             src={modalData.img || noImg}
             alt={modalData.make}
             className={css.modalImage}
+            onError={e => {
+              e.currentTarget.src = noImg;
+            }}
           />
           <p className={css.carName}>
             {modalData.make + ' '}

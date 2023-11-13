@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import css from '../css/Modal.module.css';
+import noImg from '../images/nopic.webp';
 
 const Modal = ({ onCloseModal, modalData }) => {
   useEffect(() => {
@@ -55,7 +56,7 @@ const Modal = ({ onCloseModal, modalData }) => {
           />
         </svg>
         <div className={css.modalContainer}>
-          <img src={modalData.img} alt="" className={css.modalImage} />
+          <img src={modalData.img || noImg} alt="" className={css.modalImage} />
           <p className={css.carName}>
             {modalData.make + ' '}
             <span className={css.carModel}>{modalData.model}</span>

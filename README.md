@@ -5,6 +5,7 @@ by providing a user-friendly interface for selecting and renting vehicles at
 competitive prices. Whether you're a traveler in need of transportation or a car
 owner looking to make extra income, AutoRent Solutions has you covered.
 
+
 Features
 
 1.User-friendly Interface: The project boasts an intuitive and easy-to-navigate

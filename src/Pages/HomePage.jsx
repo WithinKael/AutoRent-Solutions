@@ -1,7 +1,8 @@
 import React from 'react';
+import css from '../css/Home.module.css';
 
-export const Home = () => {
-  return <div>Home</div>;
+const Home = () => {
+  return <div className={css.homePage}>Home</div>;
 };
 
 export default Home;

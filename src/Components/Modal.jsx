@@ -109,7 +109,6 @@ const Modal = ({ onCloseModal, modalData }) => {
               {modalData.rentalConditions.split('\n')[1]}
             </li>
             <li className={css.statsRentalItem}>
-              {' '}
               {modalData.rentalConditions.split('\n')[2]}
             </li>
             <li className={css.statsRentalItem}>

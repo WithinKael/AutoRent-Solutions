@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/autorent-solutions/static/css/main.2221c885.css",
-    "main.js": "/autorent-solutions/static/js/main.08615528.js",
+    "main.css": "/autorent-solutions/static/css/main.22c09e03.css",
+    "main.js": "/autorent-solutions/static/js/main.b8a8197d.js",
     "static/media/nopic.webp": "/autorent-solutions/static/media/nopic.1de39460dbb391950422.webp",
     "index.html": "/autorent-solutions/index.html",
-    "main.2221c885.css.map": "/autorent-solutions/static/css/main.2221c885.css.map",
-    "main.08615528.js.map": "/autorent-solutions/static/js/main.08615528.js.map"
+    "main.22c09e03.css.map": "/autorent-solutions/static/css/main.22c09e03.css.map",
+    "main.b8a8197d.js.map": "/autorent-solutions/static/js/main.b8a8197d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2221c885.css",
-    "static/js/main.08615528.js"
+    "static/css/main.22c09e03.css",
+    "static/js/main.b8a8197d.js"
   ]
 }
